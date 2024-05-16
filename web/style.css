@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://mediarenditions.airbus.com/XH7wf0VsARPoPyWYvApdR32sTWIaTnhw194Ga81pbsQ/resize?src=kpkp://airbus/38/609/609241-tmtnuq23wf.jpg&w=1920&h=1920&t=fit&f=webp'); /* Thay 'background_image.jpg' bằng đường dẫn tới hình ảnh bạn đã tải xuống */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    width: 300px;
+    margin: 100px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Thêm độ trong suốt để văn bản dễ đọc */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container form {
+    margin-bottom: 20px;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.container input[type="submit"],
+.container input[type="reset"] {
+    width: 48%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container input[type="submit"]:hover,
+.container input[type="reset"]:hover {
+    background-color: #0056b3;
+}
+
+.container .register-link {
+    text-align: center;
+}
+
+.container .register-link button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.container .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
